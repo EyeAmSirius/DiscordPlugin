@@ -1,0 +1,24 @@
+main: com.reddawn.discord.DiscordTsPlugin
+name: DiscordPlugin
+version: 1.0.0
+author: SuperPitpit
+commands:
+  discord:
+    description: Donne le lien vers le discord officiel de RedDawn PvP-Community
+    usage: /discord
+  ts:
+    description: Donne l'ip du TeamSpeak officiel de RedDawn PvP-Community
+    usage: /ts
+  site:
+    description: Donne le lien vers le site officiel de RedDawn PvP-Community
+    usage: /site
+permissions:
+  discord.use:
+    description: Permet d'utiliser le /discord
+    default: true
+  ts.use:
+    description: Permet d'utiliser le /ts
+    default: true
+  site.use:
+    description: Permet d'utiliser le /site
+    default: true
